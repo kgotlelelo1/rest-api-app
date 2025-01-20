@@ -6,7 +6,7 @@ app.listen(3000, () => {
 });
 
 app.get("/msg", (req, res, next) => {
-  res.json({ message: "Hello, World!" });
+  res.json({ message: "Hello, World!, I am Kgotlelelo." });
 });
 
 app.use(express.json());
