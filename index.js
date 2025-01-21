@@ -11,7 +11,7 @@ app.get("/msg", (req, res, next) => {
 
 app.use(express.json());
 
-app.post("/msg", (req, res, next) => {
-  const message = req.body.message;
-  res.json({ receivedMessage: message });
-});
+// app.post("/msg", (req, res, next) => {
+//   const message = req.body.message;
+//   res.json({ receivedMessage: message });
+// });
